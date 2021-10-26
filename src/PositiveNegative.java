@@ -1,7 +1,7 @@
 import java.util.Scanner;
 //8.WAP to input any number and fid our if it is positive , negative or zero
 public class PositiveNegative
-{
+{ //8. WAP to input any number and fid our if it is positive , negative or zero
     public static void main (String []args)
     {
         Scanner scan = new Scanner(System.in);
