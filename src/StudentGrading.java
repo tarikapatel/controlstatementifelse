@@ -23,7 +23,7 @@ public class StudentGrading {
         studentGrading.physicsMarks = scanner.nextInt();
 
         //Pass the values to the method
-        studentGrading.findPassFail(studentGrading.name, studentGrading.englishMarks, studentGrading.mathsMarks, studentGrading.physicsMarks);
+       studentGrading.findPassFail(studentGrading.name, studentGrading.englishMarks, studentGrading.mathsMarks, studentGrading.physicsMarks);
     }
 
     public void findPassFail(String name, int english, int maths, int physics) {

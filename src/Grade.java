@@ -8,6 +8,7 @@ import java.util.Scanner;
 public class Grade {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+        // Take user input and assign it to the variables
         System.out.print("Student Name - ");
         String name = scan.nextLine();
         System.out.print("Roll number - ");
@@ -19,7 +20,7 @@ public class Grade {
         System.out.print("3rd subject marks - ");
         int marks3 = scan.nextInt();
         int total = marks1 + marks2 + marks3;
-        float percentage = (float) (total / 300.00 * 100.0);
+        double percentage = (total / 3);//if total is "int" and "output" is float need a parse(to check)
         String grade = " ";
         String result;
         if (percentage >= 80)
@@ -46,6 +47,7 @@ public class Grade {
 
             result = "Failed";
         }
+        //Print out results agin using if and else
         if (result == "PASS")
         {
             System.out.println("Total Marks = " + total);

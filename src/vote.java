@@ -15,7 +15,7 @@ public class vote {
         {
         System.out.println(" Hooray! You are eligible to vote.");
         }
-        else
+        else //Invalid Scenario
         {
             System.out.println("You are not 18 years old. Sorry, you are not eligible to vote.");
         }

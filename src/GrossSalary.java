@@ -8,6 +8,7 @@ import java.util.Scanner;
 public class GrossSalary {
     public static void main(String[]args){
         Scanner scan = new Scanner(System.in);
+        // Take user input and assign it to the variables
         System.out.print("Employee ID - ");
         String id = scan.nextLine();
 
@@ -22,6 +23,7 @@ public class GrossSalary {
         float ta = (float) salary * 9 / 100;
         float pf = (float) salary * 20 / 100;
 
+       // System.out.println("HRA = " + (hra));
         System.out.println("HRA = " + (salary * 10) / 100);
         System.out.println("DA = " + (salary * 8) / 100);
         System.out.println("TA = " + (salary * 9) / 100);
